@@ -87,6 +87,7 @@ Under **User Input Values**, enter 'EUR' as the Default value for Display Curren
 
 In the list of fields, search for 'Relative Date Function' and select the field.
 Under **User Input Values** and maintain **Default Value** as "relative:YEARTODATE".
+
 ![image](https://github.com/SAP-samples/teched2023-DT169/assets/145970887/a1c1e110-2ac0-4b2b-858f-8e7accae812b)
 
 Next, search for 'Validity Start’ and select the field.
