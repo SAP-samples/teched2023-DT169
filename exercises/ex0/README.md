@@ -22,4 +22,4 @@ After logging in you should be able to see the site like this
 ## Summary
 
 Now that you have successfully logged in to S/4Hana cloud please
-Continue to - [Exercise 1 - Exercise 1 Description](../ex1/README.md)
+Continue to - [Exercise 1 - Create Custom Analytical Queries](../ex1/README.md)
