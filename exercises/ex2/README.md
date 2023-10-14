@@ -1,4 +1,4 @@
-# Exercise 2 - Design and launch custom SAC Stories 
+# Exercise 2 - Design and publish custom SAC Stories 
 
 In this exercise, we will design a SAC Story by copying and enhancing a pre-defined story from the Manage KPIs and Reports application. The charts in this story will be configured on the custom analytical query created in Exercise 1. Once the story is activated, we will create an application to launch the story directly from the Fiori Launchpad.
 
@@ -27,6 +27,7 @@ You will be navigated to the display page of your newly copied story.
 Click on the **Edit** button on top.
 To add a new page, Click on the “+” button beside **Off Contract Details** and select **Responsive**.
 ![image](https://github.com/SAP-samples/teched2023-DT169/assets/145970887/9298e670-6351-4808-a92c-0eb9a8480019)
+
 Rename the page by clicking on the down arrow beside ‘**Page 1**’.
 ![image](https://github.com/SAP-samples/teched2023-DT169/assets/145970887/f31af115-0556-4399-a5a1-22da002cc99a)
 
@@ -70,12 +71,16 @@ In the **Builder** section, go to **Measures** section and click on **Calculated
 Enter the Name as ‘PO Net Amount in Thousands’.
 Inside the **Edit formula** section, type PO and select **PO Net Amount** from the suggestions.
 ![image](https://github.com/SAP-samples/teched2023-DT169/assets/145970887/a8f982c2-4a0b-41a4-8b1c-1798fa1747a0)
+
 Add ‘ / 1000 ‘ after the PO Net amount to scale the amount in thousands.
 ![image](https://github.com/SAP-samples/teched2023-DT169/assets/145970887/0eb8ee24-e362-4680-b5d8-f50222640370)
+
 Click on **OK**.
+
 In the Dimensions, add ‘**Calendar Month**’ and ‘**Supplier**’ to the same chart widget.
 Change the **Chart** structure to **Trend -> Line**.
 ![image](https://github.com/SAP-samples/teched2023-DT169/assets/145970887/542bfb9e-29f0-439b-8e26-f4d303835c0d)
+
 Change the titles of the page sections.
 ![image](https://github.com/SAP-samples/teched2023-DT169/assets/145970887/daf6ee50-8873-4559-b1e6-18392c163ea3)
 
@@ -86,16 +91,21 @@ You can explore the other designing options in the Builder and add more charts t
 Add another chart with **Measure** ‘Number of Open PO Items from..’.
 Change the Chart structure to **Indicator** -> **Numeric Point**.
 ![image](https://github.com/SAP-samples/teched2023-DT169/assets/145970887/8f758c26-8f63-456a-85de-67712d4d916a)
+
 Go to **Color** section and click on **Add Threshold**.
 ![image](https://github.com/SAP-samples/teched2023-DT169/assets/145970887/aef6ad8c-3499-4680-b181-fbd11dd0dee0)
+
 Inside thresholds, select the Measure as ‘**Number of Open PO items from…**’. 
 ![image](https://github.com/SAP-samples/teched2023-DT169/assets/145970887/f8d07e42-eca2-4d53-86e6-28c8876b024f)
+
 Maintain the **Ranges** as displayed in the image below. These define the thresholds for being marked in the OK, Warning or Critical state.
 ![image](https://github.com/SAP-samples/teched2023-DT169/assets/145970887/e809593e-5f13-42d4-804a-f543ca9bcf31)
+
 Click on **Apply**.
 
 The numerical point will update the color of the data according to the defined threshold values.
 ![image](https://github.com/SAP-samples/teched2023-DT169/assets/145970887/2113b2fd-a9dd-4f24-84ab-dfa47fdf0010)
+
 
 **Linking models within the story**
 
@@ -107,9 +117,12 @@ Click on the ‘**Link Dimensions**’ icon on the top.
 Select the model on the left as ‘C_PURCHASEORDERVALUEQUERY’ and the custom query ‘YY1_PURCHASING_DT169_XXX’ on the right dropdown.
 ![image](https://github.com/SAP-samples/teched2023-DT169/assets/145970887/f5e4c068-7fa7-4de5-9b49-d8c7e4a24884)
 
+
 Choose the ‘**Supplier**’ dimension on both sides.
 ![image](https://github.com/SAP-samples/teched2023-DT169/assets/145970887/b2025086-5802-46c3-9ace-1930fb2240f2)
+
 Click on **Set**. Click on **Done**.
+
 You can modify the visualization of the numerical point by selecting the required options from **Show/Hide**.
 ![image](https://github.com/SAP-samples/teched2023-DT169/assets/145970887/c3a72d6b-014b-491e-b54a-ab36ffcae88c)
 
@@ -153,8 +166,10 @@ When the status changes from ‘Publishing’ to ‘Published’, your tile is r
 Launch https://my407161.s4hana.cloud.sap/ui in a new tab in your browser.
 From the Home page, navigate to the ‘**Purchase Order Processing**’ section under **Purchasing page**.
 ![image](https://github.com/SAP-samples/teched2023-DT169/assets/145970887/06d0a97b-09ed-4ccc-a693-e3d3f1a77ad8)
+
 Go to the User settings icon on the top-right and click on **Edit Current Page**. 
 ![image](https://github.com/SAP-samples/teched2023-DT169/assets/145970887/68492c65-2ce3-451b-811e-28ef1b880e90)
+
 Click on **Add tile**.
 ![image](https://github.com/SAP-samples/teched2023-DT169/assets/145970887/c7c1f653-dee1-4420-a583-991bb0bd03dd)
 
