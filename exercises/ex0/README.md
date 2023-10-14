@@ -1,26 +1,24 @@
-# Level 1 Heading
+# Getting Started
 
-In this exercise, you will...
+In this exercise, you will be able to Login to the S/4Hana Cloud system
 
-## Level 2 Heading
+## Find your group number
 
-After completing these steps you will have....
+During this Teched exercise, you will create a create custom analytical query and consume it in multiple analytical reports. To avoid conflicts between two queries, reports and applications, it is very important that you know your place number and execute the exercise using this place number. Please check the sign on your table. The number on this sign is your place number.
 
-1.	Click here.
-<br>![](/exercises/ex0/images/00_00_0010.png)
+## Login to S/4hana Cloud system with correct credentials
 
-2.	Insert this code.
-``` abap
- DATA(params) = request->get_form_fields(  ).
- READ TABLE params REFERENCE INTO DATA(param) WITH KEY name = 'cmd'.
-  IF sy-subrc <> 0.
-    response->set_status( i_code = 400
-                     i_reason = 'Bad request').
-    RETURN.
-  ENDIF.
-```
+Open https://my407161.s4hana.cloud.sap/ui in Chrome browser installed on your system.
+
+Please replace the XXX in the user name with your place number (e.g. DT169_001@education.cloud.sap)
+similarly for place number 25, user name will be DT169_025@education.cloud.sap
+Password: Acce$$teched23
+
+After logging in you should be able to see the site like this
+![image](https://github.com/SAP-samples/teched2023-DT169/assets/145970887/0ce30459-3f26-4efb-8760-7b5534a9830c)
+
 
 ## Summary
 
-Now that you have ... 
+Now that you have successfully logged in to S/4Hana cloud please
 Continue to - [Exercise 1 - Exercise 1 Description](../ex1/README.md)
