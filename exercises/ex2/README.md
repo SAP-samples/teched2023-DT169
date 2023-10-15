@@ -188,4 +188,4 @@ You can now launch your Story from the Fiori Launchpad tile. Proceed to the next
 
 You've now created a custom embedded analytical story and published it as an application
 
-Continue to - [Exercise 3 - Excercise 3 ](../ex3/README.md)
+Continue to - [Exercise 3 - Embedded SAC Stories Runtime Analysis ](../ex3/README.md)
