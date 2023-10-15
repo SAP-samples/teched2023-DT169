@@ -133,5 +133,5 @@ The query is now ready for consumption in analytical reports.
 
 You've now created Custom analytical Query. Let us now consume this query in Embedded SAC stories
 
-Continue to - [Exercise 2 - Design and launch custom SAC Stories ](../ex2/README.md)
+Continue to - [Exercise 2 - Design and publish custom SAC Stories ](../ex2/README.md)
 
