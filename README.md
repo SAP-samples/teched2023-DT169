@@ -13,7 +13,8 @@ Here key users will be able to understand how to use Custom analytical Queries a
 
 ## Requirements
 
-The requirements to follow the exercises in this repository are basic understanding of SAP S/4hana Cloud.
+There are no pre-requisites required for this session
+Basic understanding of SAP S/4hana Cloud is good to have.
 
 ## Exercises
 
@@ -23,8 +24,18 @@ The requirements to follow the exercises in this repository are basic understand
     - [Exercise 1.2 - Designing the custom analytical query](exercises/ex1#exercise-12-designing-the-custom-analytical-query)
     - [Exercise 1.3 - Add a Calculated measure to the custom query](exercises/ex1#exercise-13-add-a-calculated-measure-to-the-custom-query)
     - [Exercise 1.4 - Add default values for input filters](exercises/ex1#exercise-14-add-default-values-for-input-filters)
-    - 
-- [Exercise 2 - Second Exercise Description](exercises/ex2/)
+    - [Exercise 1.5 - Publish the Query and Open it for analysis in preview mode](exercises/ex1#exercise-15-publish-the-query-and-open-it-for-analysis-in-preview-mode)
+- [Exercise 2 - exercise-2---design-and-publish-custom-sac-stories](exercises/ex2/)
+    - [Exercise 2.1 Access embedded SAC stories from Manage KPIs and Reports](exercises/ex2#exercise-21-access-embedded-sac-stories-from-manage-kpis-and-reports)
+    - [Exercise 2.2 Copy pre-defined dashboard and enhance the story with the custom analytical query](exercises/ex2#exercise-22-copy-pre-defined-dashboard-and-enhance-the-story-with-the-custom-analytical-query)
+    - [Exercise 2.3 Add widgets and activate the story](exercises/ex2#exercise-23-add-widgets-and-activate-the-story)
+    - [Exercise 2.4 Create Fiori Launchpad application to launch the story](exercises/ex2#exercise-24-create-fiori-launchpad-application-to-launch-the-story)
+    - [Exercise 2.5 Accessing the application from Fiori Launchpad](exercises/ex2#exercise-25-accessing-the-application-from-fiori-launchpad)
+- [Exercise 3 - exercise-2---design-and-publish-custom-sac-stories](exercises/ex2/)
+- [Exercise 4 - Second Exercise Description](exercises/ex2/)
+    - [Exercise 2.1 - Exercise 2 Sub Exercise 1 Description](exercises/ex2#exercise-21-sub-exercise-1-description)
+    - [Exercise 2.2 - Exercise 2 Sub Exercise 2 Description](exercises/ex2#exercise-22-sub-exercise-2-description)
+- [Exercise 5 - Second Exercise Description](exercises/ex2/)
     - [Exercise 2.1 - Exercise 2 Sub Exercise 1 Description](exercises/ex2#exercise-21-sub-exercise-1-description)
     - [Exercise 2.2 - Exercise 2 Sub Exercise 2 Description](exercises/ex2#exercise-22-sub-exercise-2-description)
 
