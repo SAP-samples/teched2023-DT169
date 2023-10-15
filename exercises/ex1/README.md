@@ -20,6 +20,7 @@ Choose Create Analytical Query.
 
 You will be navigated to the create page of Custom Analytical Queries application.
 Enter 'PURCHASING_DT169_XXX' as the query name. (_XXX Should be replaced with your group number for eg for place nmber 25 it is 025_)
+
 'YY1_' prefix will be added to the name of the query automatically. Click on OK.
 Provide a Label for the query, for example 'Purchasing Analysis Open Purchase Orders'.
 
