@@ -14,6 +14,7 @@ Here key users will be able to understand how to use Custom analytical Queries a
 ## Requirements
 
 There are no pre-requisites required for this session.
+
 Basic understanding of SAP S/4hana Cloud is good to have.
 
 ## Exercises
