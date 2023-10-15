@@ -16,7 +16,7 @@ Under **KPI Design** group, launch the **Manage KPIs and Reports** application.
 ![image](https://github.com/SAP-samples/teched2023-DT169/assets/145970887/c739e266-c8d0-44e8-af7c-bc49ed9fe1a8)
 
 A list of Groups will be displayed. Click on **Create**.
-Enter title for the Group ‘DT_169_XXX Group’.
+Enter title for the Group ‘DT_169_XXX Group’.(_XXX should be replaced with your group number for eg for place number 25 it is 025_)
 Click on **Save and Activate**. 
 
 ![image](https://github.com/SAP-samples/teched2023-DT169/assets/145970887/04540932-660c-4ec7-a9f4-68fae2166897)
@@ -26,12 +26,12 @@ Go to **KPIs** section and click on **Add** button.
 
 ![image](https://github.com/SAP-samples/teched2023-DT169/assets/145970887/add51599-23f4-4b08-a454-6ca5aaa2a657)
 
-Enter the title as ‘DT_169_XXX Purchase Order KPI’.
+Enter the title as ‘DT_169_XXX Purchase Order KPI’.(_XXX should be replaced with your group number for eg for place number 25 it is 025_)
 
 ![image](https://github.com/SAP-samples/teched2023-DT169/assets/145970887/c009cb3f-288c-420b-ac90-c88bb6b7e2a1)
 
 Scroll to the **Data Source** section and click on **Define**. 
-Search for your custom analytical query ‘YY1_PURCHASING_DT169_XXX’.
+Search for your custom analytical query ‘YY1_PURCHASING_DT169_XXX’.(_XXX should be replaced with your group number for eg for place number 25 it is 025_)
 Select the view, the oData service and Entity set will get automatically populated.
 Click on OK. 
 ![image](https://github.com/SAP-samples/teched2023-DT169/assets/145970887/aebafd4f-032b-436f-b89c-a737e065e980)
@@ -49,7 +49,7 @@ You will be navigated to the Display KPI page.
 ## Exercise 4.2 Create and publish KPI tile to launch story 
 
 Go back to the main page of Manage KPIs and Reports. 
-Switch to the **Stories** tab and search for your Story ‘DT169-XXX Purchasing Spend Dashboard’. 
+Switch to the **Stories** tab and search for your Story ‘DT169-XXX Purchasing Spend Dashboard’.(_XXX should be replaced with your group number for eg for place number 25 it is 025_)
 
 ![image](https://github.com/SAP-samples/teched2023-DT169/assets/145970887/68b18a20-be73-401f-b024-ad1877c131f2)
 
@@ -64,8 +64,9 @@ Select **Numeric Tile** and click on **OK**.
 
 Change the title and subtitle according to your requirement. 
 
-Click on the value help for KPI name and search for the your KPI ‘DT_169_XXX Purchase Order KPI’.  
-Add Semantic Object as ‘DT169_XXX_KPI’. 
+Click on the value help for KPI name and search for the your KPI ‘DT_169_XXX Purchase Order KPI’.(_XXX should be replaced with your group number for eg for place number 25 it is 025_)
+
+Add Semantic Object as ‘DT169_XXX_KPI’.(_XXX should be replaced with your group number for eg for place number 25 it is 025_)
 
 ![image](https://github.com/SAP-samples/teched2023-DT169/assets/145970887/5beaaad8-2b59-4fdd-8d05-5b4031cc023f)
 
