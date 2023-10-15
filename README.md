@@ -25,7 +25,7 @@ Basic understanding of SAP S/4hana Cloud is good to have.
     - [Exercise 1.3 - Add a Calculated measure to the custom query](exercises/ex1#exercise-13-add-a-calculated-measure-to-the-custom-query)
     - [Exercise 1.4 - Add default values for input filters](exercises/ex1#exercise-14-add-default-values-for-input-filters)
     - [Exercise 1.5 - Publish the Query and Open it for analysis in preview mode](exercises/ex1#exercise-15-publish-the-query-and-open-it-for-analysis-in-preview-mode)
-- [Exercise 2 - exercise-2---design-and-publish-custom-sac-stories](exercises/ex2/)
+- [Exercise 2 - Exercise 2 - Design and publish custom SAC Stories](exercises/ex2/)
     - [Exercise 2.1 Access embedded SAC stories from Manage KPIs and Reports](exercises/ex2#exercise-21-access-embedded-sac-stories-from-manage-kpis-and-reports)
     - [Exercise 2.2 Copy pre-defined dashboard and enhance the story with the custom analytical query](exercises/ex2#exercise-22-copy-pre-defined-dashboard-and-enhance-the-story-with-the-custom-analytical-query)
     - [Exercise 2.3 Add widgets and activate the story](exercises/ex2#exercise-23-add-widgets-and-activate-the-story)
