@@ -17,6 +17,7 @@ Under **KPI Design** group, launch the **Manage KPIs and Reports** application.
 
 A list of Groups will be displayed. Click on **Create**.
 Enter title for the Group ‘DT_169_XXX Group’.(_XXX should be replaced with your group number for eg for place number 25 it is 025_)
+
 Click on **Save and Activate**. 
 
 ![image](https://github.com/SAP-samples/teched2023-DT169/assets/145970887/04540932-660c-4ec7-a9f4-68fae2166897)
@@ -39,6 +40,7 @@ Click on OK.
 Click on the Value help for **Value Measure** and select ‘Number of Open PO Items from..’.
 The other fields can remain as they are. 
 Maintain the **Threshold** values as shown in the image below. 
+
 Click on **Save and Activate**. 
 ![image](https://github.com/SAP-samples/teched2023-DT169/assets/145970887/4a5bcb20-333a-4388-91e7-168ea321974f)
 
