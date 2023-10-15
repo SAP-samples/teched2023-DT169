@@ -13,7 +13,7 @@ Here key users will be able to understand how to use Custom analytical Queries a
 
 ## Requirements
 
-The requirements to follow the exercises in this repository are basic understanding of S/4hana VDM Views delivered by SAP.
+The requirements to follow the exercises in this repository are basic understanding of SAP S/4hana Cloud.
 
 ## Exercises
 
