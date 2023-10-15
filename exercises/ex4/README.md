@@ -71,7 +71,7 @@ Add Semantic Object as ‘DT169_XXX_KPI’.
 
 Click on **Save and Publish**. 
 From the Custom Catalog Extensions application, publish your tile to ‘**SAP_MM_BC_PO_MANAGE_PC**’ , similar to the steps done in Exercise 2.4.
-Repeat the steps in Exercise 2.5 to add the tile in the ‘**Purchase Order Processing**’ section. For reference: [Exercise 2.5 -  Accessing the application from Fiori Launchpad ](../ex2/#exercise-25-sub-exercise-5)
+Repeat the steps in Exercise 2.5 to add the tile in the ‘**Purchase Order Processing**’ section. For reference: [Exercise 2.5 -  Accessing the application from Fiori Launchpad ](../ex2/README.md#exercise-25-accessing-the-application-from-fiori-launchpad)
 
 ![image](https://github.com/SAP-samples/teched2023-DT169/assets/145970887/b531df1f-24eb-447a-8703-7b6282035e62)
 
