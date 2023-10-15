@@ -21,6 +21,8 @@ Click on **Copy** button on the top of the screen.
 ![image](https://github.com/SAP-samples/teched2023-DT169/assets/145970887/82ece805-4243-438a-af01-041330aa200f)
 
 Enter the title as ‘DT169-XXX Purchasing Spend Dashboard’ and click on **Copy**.
+(_XXX should be replaced with your group number for eg for place number 25 it is 025_)
+
 ![image](https://github.com/SAP-samples/teched2023-DT169/assets/145970887/5a343bb9-ee82-4739-911f-bf57bfdb178f)
 
 You will be navigated to the display page of your newly copied story. 
@@ -38,6 +40,8 @@ Under Data section, add New Data source.
 ![image](https://github.com/SAP-samples/teched2023-DT169/assets/145970887/e9330ebf-26e6-4984-9d8b-9c863f1d357b)
 
 Search for the custom analytical query created in Exercise 1, i.e, **YY1_PURCHASING_DT169_XXX**.
+(_XXX should be replaced with your group number for eg for place number 25 it is 025_)
+
 ![image](https://github.com/SAP-samples/teched2023-DT169/assets/145970887/8f149219-9881-44a5-9ae1-fe5004f1d6dc)
 
 A prompt will be displayed to set the variables for the data source. Since the filter values were already prefilled during the query designing, no change is required here. 
@@ -144,6 +148,8 @@ Select **Static** tile and click on OK.
 Title will be pre-filled with the name of the Story. You can change the title and subtitle as per your requirement. These texts will be used to distinguish your tile in the Fiori Launchpad.
 
 Under Target mapping section, enter the Semantic Object as ‘**DT169_XXX**’. 
+(_XXX should be replaced with your group number for eg for place number 25 it is 025_)
+
 ![image](https://github.com/SAP-samples/teched2023-DT169/assets/145970887/85db9ac0-a889-44c3-b658-674a04cacdba)
 
 Default Values and Navigation Intents can be left empty for this exercise.
