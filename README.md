@@ -1,27 +1,29 @@
 [![REUSE status](https://api.reuse.software/badge/github.com/SAP-samples/teched2023-DT169)](https://api.reuse.software/info/github.com/SAP-samples/teched2023-DT169)
 
-# Session ID - Session Title
+# DT169 - Design and Build Embedded Analytical Content in SAP S/4HANA Cloud
 
 ## Description
 
-This repository contains the material for the SAP TechEd 2022 session called Session ID - Session Title.  
+This repository contains the material for the SAP TechEd 2023 session called DT169 - Design and Build Embedded Analytical Content in SAP S/4HANA Cloud.
 
 ## Overview
 
-This session introduces attendees to...
+This session introduces attendees to learn on how to design analytical queries and build analytical applications for SAP S/4HANA Cloud.
+Here key users will be able to understand how to use Custom analytical Queries app to design the analytical query for the existing SAP delivered Cube. They can extend the cube according to their business processes. Later on this custom created query can be consumed in various types of analytical reports which can be published as an app on Fiori Launchpad.
 
 ## Requirements
 
-The requirements to follow the exercises in this repository are...
+The requirements to follow the exercises in this repository are basic understanding of S/4hana VDM Views delivered by SAP.
 
 ## Exercises
 
-Provide the exercise content here directly in README.md using [markdown](https://guides.github.com/features/mastering-markdown/) and linking to the specific exercise pages, below is an example.
-
 - [Getting Started](exercises/ex0/)
-- [Exercise 1 - First Exercise Description](exercises/ex1/)
-    - [Exercise 1.1 - Exercise 1 Sub Exercise 1 Description](exercises/ex1#exercise-11-sub-exercise-1-description)
-    - [Exercise 1.2 - Exercise 1 Sub Exercise 2 Description](exercises/ex1#exercise-12-sub-exercise-2-description)
+- [Exercise 1 - Create Custom Analytical Queries](exercises/ex1/)
+    - [Exercise 1.1 - Launch View Browser to get details of all the views available in system](exercises/ex1#exercise-11launch-view-browser-to-get-the-details-of-all-the-views-available-in-the-system)
+    - [Exercise 1.2 - Designing the custom analytical query](exercises/ex1#exercise-12-designing-the-custom-analytical-query)
+    - [Exercise 1.3 - Add a Calculated measure to the custom query](exercises/ex1#exercise-13-add-a-calculated-measure-to-the-custom-query)
+    - [Exercise 1.4 - Add default values for input filters](exercises/ex1#exercise-14-add-default-values-for-input-filters)
+    - 
 - [Exercise 2 - Second Exercise Description](exercises/ex2/)
     - [Exercise 2.1 - Exercise 2 Sub Exercise 1 Description](exercises/ex2#exercise-21-sub-exercise-1-description)
     - [Exercise 2.2 - Exercise 2 Sub Exercise 2 Description](exercises/ex2#exercise-22-sub-exercise-2-description)
