@@ -84,6 +84,6 @@ Go to the ‘Open Purchase Orders’ page of your story, and you will see that t
 
 You've now created a custom KPI and used this KPI to create an application to launch embedded analytical story and published it as an application
 
-Continue to - [Exercise 5 - Excercise 5 ](../ex5/README.md)
+Continue to - [Exercise 5 - Considering Default Values in SAC Stories ](../ex5/README.md)
 
 
