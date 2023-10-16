@@ -8,12 +8,18 @@ Click on the Analytics Page.
 Scroll to the Query Design group and launch the View Browser application.
 View Browser application is used to get a list of all CDS views available in the current system along with the details, such as category, view types, fields, annotations, supported capabilities, modeling pattern of the CDS views. 
 
+
 ![image](https://github.com/SAP-samples/teched2023-DT169/assets/145970887/8c0b5caf-011b-4ec3-9d99-582033ab54ad)
+
+
+![image](https://github.com/SAP-samples/teched2023-DT169/assets/145970887/ce1836a4-9cd9-4eca-8a54-802d05e2fdc2)
+
 
 Search for C_PURCHASINGGROUPANALYSIS in the search bar. 
 Click on the checkbox to select the C_PURCHASINGGROUPANALYSIS view.
 Click on the Ellipses icon on the right to expand the available options for the view.
 Choose Create Analytical Query.
+
 ![image](https://github.com/SAP-samples/teched2023-DT169/assets/145970887/dad688e6-5996-4f37-b101-680d04165ce1)
 
 ## Exercise 1.2 Designing the custom analytical query
