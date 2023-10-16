@@ -40,8 +40,9 @@ Basic understanding of SAP S/4HANA Cloud is good to have.
     - [Exercise 5.1 - Change Designtime tile to consider default values](exercises/ex5#exercise-51change-designtime-tile-to-consider-default-values)
     - [Exercise 5.2 - Change User Default values on FLP](exercises/ex5#exercise-52change-user-default-values-on-flp)
 - [Exercise 6 - Create and launch Generic Drilldown report for KPI](exercises/ex6/)
-    - [Exercise 5.1 - Change Designtime tile to consider default values](exercises/ex6#exercise-51change-designtime-tile-to-consider-default-values)
-    - [Exercise 5.2 - Change User Default values on FLP](exercises/ex6#exercise-52change-user-default-values-on-flp)
+    - [Exercise 6.1 - Create Generic Drilldown Reports using Manage KPIs and Reports](exercises/ex6#exercise-61create-generic-drilldown-reports-using-manage-kpis-and-reports)
+    - [Exercise 6.2 - Create and publish application for Generic drilldown report](exercises/ex6#exercise-62create-and-publish-application-for-generic-drilldown-report)
+    - [Exercise 6.3 - Launch Generic drilldown report application](exercises/ex6#exercise-63launch-generic-drilldown-report-application)
 
 ## Contributing
 Please read the [CONTRIBUTING.md](./CONTRIBUTING.md) to understand the contribution guidelines.
