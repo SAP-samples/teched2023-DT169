@@ -9,7 +9,7 @@ This repository contains the material for the SAP TechEd 2023 session called DT1
 ## Overview
 
 This session introduces attendees to learn on how to design analytical queries and build analytical applications for SAP S/4HANA Cloud.
-Here key users will be able to understand how to use Custom analytical Queries app to design the analytical query for the existing SAP delivered Cube. They can extend the cube according to their business processes. Later on this custom created query can be consumed in various types of analytical reports which can be published as an app on Fiori Launchpad.
+Here key users will be able to understand how to use Custom analytical Queries app to design the analytical query for the existing SAP delivered Cube. They can extend the cube according to their business processes. Later on this custom created query can be consumed in various types of analytical reports such as embedded analytical cloud stories, KPIs, smart business drilldown reports etc. which can be published as an application on Fiori Launchpad.
 
 ## Requirements
 
