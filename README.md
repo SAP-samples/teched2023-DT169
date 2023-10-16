@@ -39,7 +39,7 @@ Basic understanding of SAP S/4HANA Cloud is good to have.
 - [Exercise 5 - Considering User Default values in SAC Stories](exercises/ex5/)
     - [Exercise 5.1 - Change Designtime tile to consider default values](exercises/ex5#exercise-51change-designtime-tile-to-consider-default-values)
     - [Exercise 5.2 - Change User Default values on FLP](exercises/ex5#exercise-52change-user-default-values-on-flp)
-- [Exercise 6 - Considering User Default values in SAC Stories](exercises/ex5/)
+- [Exercise 6 - Create and launch Generic Drilldown report for KPI](exercises/ex6/)
     - [Exercise 5.1 - Change Designtime tile to consider default values](exercises/ex6#exercise-51change-designtime-tile-to-consider-default-values)
     - [Exercise 5.2 - Change User Default values on FLP](exercises/ex6#exercise-52change-user-default-values-on-flp)
 
