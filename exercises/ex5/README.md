@@ -79,6 +79,6 @@ The Default values will automatically be applied as filter values for all the ch
 
 You've now learn on how to consider default values for analytical reports
 
-Continue to - [Exercise 6 - Design and launch custom SAC Stories ](../ex2/README.md)
+Continue to - [Exercise 6 - Create and launch Generic Drilldown report for KPI ](../ex6/README.md)
 
 
