@@ -83,6 +83,10 @@ You can now launch your SAC Story from a KPI tile that displays the value of the
 Go to the ‘Open Purchase Orders’ page of your story, and you will see that the **Number of Open PO items** displayed in your numeric point chart matches the data that was displayed on the Fiori Launchpad tile.
 
 
+![image](https://github.com/SAP-samples/teched2023-DT169/assets/145970887/8fa0ef91-aa7f-46d4-9f43-ab51b92aba29)
+
+
+
 ## Summary
 
 You've now created a custom KPI and used this KPI to create an application to launch embedded analytical story and published it as an application
