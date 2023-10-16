@@ -84,6 +84,7 @@ You can rearrange the fields to place the Dimensions before the Measures in the 
 
 
 Under Navigation Intents, add the semantic object & Action of the KPI tile which was created in Exercise 4.2 ( DT_169_XXX_KPI - analyze).
+(_XXX should be replaced with your group number for eg for place number 25 it is 025_)
 For reference: [Exercise 4.2 - Create and publish KPI tile to launch story ](../ex4/README.md#exercise-42-create-and-publish-kpi-tile-to-launch-story)
 
 ![image](https://github.com/SAP-samples/teched2023-DT169/assets/145970887/f4414206-f539-4f6e-a475-35102f22cbc8)
@@ -101,18 +102,66 @@ Now we will create a Fiori Launchpad tile to launch this Generic drilldown repor
 Click on **Applications** tab.
 Create another tile with the following configuration.
 **Tile format** : Actual vs. Target Tile
-Title : “DT169_XXX Purchasing Group Analysis”
+Title : “DT169_XXX Purchasing Group Analysis” (_XXX should be replaced with your group number for eg for place number 25 it is 025_)
 **Subtitle** : “Open PO Items”  
 KPI name will already be pre-populated.
+
+![image](https://github.com/SAP-samples/teched2023-DT169/assets/145970887/a6af6a86-8641-4442-b4ec-9f59bdcf5988)
+
+Add Semantic Object as “DT169_XXX_Report”. (_XXX should be replaced with your group number for eg for place number 25 it is 025_)
+Click on Save and Publish. 
+
+
+![image](https://github.com/SAP-samples/teched2023-DT169/assets/145970887/ac663881-dc52-4808-91e5-ba856af98bd0)
+
+
+From the Custom Catalog Extensions application, publish your tile to ‘**SAP_MM_BC_PO_MANAGE_PC**’ , similar to the steps done in Exercise 2.4.
+Reeference: [Exercise 2.4 Create Fiori Launchpad application to launch the story](../ex2/README.md#exercise-24-create-fiori-launchpad-application-to-launch-the-story)
+![image](https://github.com/SAP-samples/teched2023-DT169/assets/145970887/e5e13e2f-fa36-4257-84cd-0eea350625e0)
+
+
+Repeat the steps in Exercise 2.5 to add the tile in the ‘Purchase Order Processing’ section. 
+Reeference: [Exercise 2.5 -  Accessing the application from Fiori Launchpad ](../ex2/README.md#exercise-25-accessing-the-application-from-fiori-launchpad)
+![image](https://github.com/SAP-samples/teched2023-DT169/assets/145970887/1822f9e0-2b54-447d-8098-d00cb8c2b63c)
+
+
+## Exercise 6.3	Launch Generic drilldown report application
+
+Launch the application from the tile.
+Click on the ‘**Toggle Data Label visibility**’ to view the numerical values on the pie chart.
+
+![image](https://github.com/SAP-samples/teched2023-DT169/assets/145970887/f361d9f4-5098-4c31-8b0a-5bf3da45bdca)
+
+
+Select the section of the pie chart representing the data for ‘US Purchasing Org’.
+Click on the **Jump To** button on top and click on the ‘DT169 – XXX Purchasing Spend Dashboard’. This application appears as an available option to Jump to, because the semantic object and action for this app was added in the tile configuration under Navigation Intents.
+
+![image](https://github.com/SAP-samples/teched2023-DT169/assets/145970887/bd3da71b-6e6d-4705-8ea3-ee462ac153d2)
+
+
+You will be navigated to your Story application with the context of ‘US Purchasing Org’ applied as a filter.
+
+![image](https://github.com/SAP-samples/teched2023-DT169/assets/145970887/33918e32-4640-453b-bf4d-99d019e256da)
+
+
+The Purch. Organization filter passed from the Generic drilldown report to this Story is applied on all models. This is another example of Intent based navigation.
+
+![image](https://github.com/SAP-samples/teched2023-DT169/assets/145970887/f2d0227e-c60c-495d-9408-62e916b2693f)
+
+Go back to the Generic drilldown page.
+Click on ‘**Show Mini Tiles**’ to view the tile visualizations configured as mini tiles.
+Switch the view to ‘**Document view**’ to see the table view in the Generic drilldown. 
+
+![image](https://github.com/SAP-samples/teched2023-DT169/assets/145970887/91596055-6a81-4168-820b-554b752b33e6)
 
 
 
 
 ## Summary
 
-You've now learn on how to consider default values for analytical reports
 
-Continue to - [Exercise 6 - Design and launch custom SAC Stories ](../ex2/README.md)
+You've now learn on how to create and launch Smartbusiness generic drilldown reports based on a KPI
+
 
 
 
