@@ -58,7 +58,7 @@ Search for **Purchasing Org.** in the list and search for ‘_US Purchasing Org_
 Click on **Save**.  
 ![image](https://github.com/SAP-samples/teched2023-DT169/assets/145970887/51c3493c-f878-427d-861b-ae3443ff8cf5)
 
-This sets the default values as Display Currency = EUR and Purchasing Org. = 1710.
+**This sets the default values as Display Currency = USD and Purchasing Org. = 1710.**
 
 Click on the **Refresh** button at the bottom of the KPI tile.
 
