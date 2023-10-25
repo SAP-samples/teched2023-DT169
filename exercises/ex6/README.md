@@ -36,10 +36,11 @@ Click on OK.
 
 
 Click on **Add** to add another mini tile.
-Change Tile format to Comparison – Multiple Measure tile. 
+Change Tile format to **Comparison – Multiple Measure tile**. 
 Measure selections can be left as is pre-filled. 
 
-![image](https://github.com/SAP-samples/teched2023-DT169/assets/145970887/92205bc8-36f6-43d8-be0b-c611bc8fd1cb)
+![image](https://github.com/SAP-samples/teched2023-DT169/assets/145970887/efed7df5-2c46-453d-8a9a-aa68340e1e46)
+
 
 
 **Configuring Views**
