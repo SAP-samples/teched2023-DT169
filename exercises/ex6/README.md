@@ -84,7 +84,7 @@ You can rearrange the fields to place the Dimensions before the Measures in the 
 ![image](https://github.com/SAP-samples/teched2023-DT169/assets/145970887/897c60ed-93b6-4fc5-b4f6-77014e761f86)
 
 
-Under Navigation Intents, add the semantic object & Action of the KPI tile which was created in Exercise 4.2 ( DT_169_XXX_KPI - analyze).
+Under **Navigation Intents**, add the semantic object & Action of the KPI tile which was created in Exercise 4.2 ( DT169_XXX_KPI - analyze).
 (_XXX should be replaced with your group number for eg for place number 25 it is 025_)
 For reference: [Exercise 4.2 - Create and publish KPI tile to launch story ](../ex4/README.md#exercise-42-create-and-publish-kpi-tile-to-launch-story)
 
