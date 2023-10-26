@@ -47,11 +47,11 @@ Basic understanding of SAP S/4HANA Cloud is good to have.
 ## Feedback
 Please scan the below QR code to provide the feedback for this session.
 
- QR_Code_IMG_DT169.png
+
+![image](https://github.com/SAP-samples/teched2023-DT169/assets/145970887/fbf5ba18-6d97-4606-9219-f9e5a3282626)
+
 
 You can also launch https://url.sap/q3vkl8 to quickly open the feedback form.
-
-![image](https://github.com/SAP-samples/teched2023-DT169/assets/145970887/cbdc1b4c-290c-4204-964d-a7f97cf718ad)
 
 
 ## Contributing
