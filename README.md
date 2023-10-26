@@ -1,4 +1,4 @@
-[![REUSE status](https://api.reuse.software/badge/github.com/SAP-samples/teched2023-DT169)](https://api.reuse.software/info/github.com/SAP-samples/teched2023-DT169)
+![image](https://github.com/SAP-samples/teched2023-DT169/assets/145970887/4f41f0d2-0a96-4afe-8f26-25c3624ffde5)[![REUSE status](https://api.reuse.software/badge/github.com/SAP-samples/teched2023-DT169)](https://api.reuse.software/info/github.com/SAP-samples/teched2023-DT169)
 
 # DT169 - Design and Build Embedded Analytical Content in SAP S/4HANA Cloud
 
@@ -43,6 +43,16 @@ Basic understanding of SAP S/4HANA Cloud is good to have.
     - [Exercise 6.1 - Create Generic Drilldown Reports using Manage KPIs and Reports](exercises/ex6#exercise-61create-generic-drilldown-reports-using-manage-kpis-and-reports)
     - [Exercise 6.2 - Create and publish application for Generic drilldown report](exercises/ex6#exercise-62create-and-publish-application-for-generic-drilldown-report)
     - [Exercise 6.3 - Launch Generic drilldown report application](exercises/ex6#exercise-63launch-generic-drilldown-report-application)
+
+## Feedback
+Please scan the below QR code to provide the feedback for this session.
+
+ QR_Code_IMG_DT169.png
+
+You can also launch https://url.sap/q3vkl8 to quickly open the feedback form.
+
+![image](https://github.com/SAP-samples/teched2023-DT169/assets/145970887/cbdc1b4c-290c-4204-964d-a7f97cf718ad)
+
 
 ## Contributing
 Please read the [CONTRIBUTING.md](./CONTRIBUTING.md) to understand the contribution guidelines.
