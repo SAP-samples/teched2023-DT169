@@ -15,7 +15,10 @@ Under **KPI Design** group, launch the **Manage KPIs and Reports** application.
 
 ![image](https://github.com/SAP-samples/teched2023-DT169/assets/145970887/c739e266-c8d0-44e8-af7c-bc49ed9fe1a8)
 
-A list of Groups will be displayed. Click on **Create**.
+A list of Groups will be displayed.
+
+Click on **Create**.
+
 Enter title for the Group ‘DT_169_XXX Group’.(_XXX should be replaced with your group number for eg for place number 25 it is 025_)
 
 Click on **Save and Activate**. 
@@ -29,19 +32,27 @@ Go to **KPIs** section and click on **Add** button.
 
 Enter the title as ‘DT_169_XXX Purchase Order KPI’.(_XXX should be replaced with your group number for eg for place number 25 it is 025_)
 
+
 ![image](https://github.com/SAP-samples/teched2023-DT169/assets/145970887/c009cb3f-288c-420b-ac90-c88bb6b7e2a1)
 
 Scroll to the **Data Source** section and click on **Define**. 
+
 Search for your custom analytical query ‘YY1_PURCHASING_DT169_XXX’.(_XXX should be replaced with your group number for eg for place number 25 it is 025_)
+
 Select the view, the oData service and Entity set will get automatically populated.
+
 Click on OK. 
+
 ![image](https://github.com/SAP-samples/teched2023-DT169/assets/145970887/aebafd4f-032b-436f-b89c-a737e065e980)
 
 Click on the Value help for **Value Measure** and select ‘Number of Open PO Items from..’.
+
 The other fields can remain as they are. 
+
 Maintain the **Threshold** values as shown in the image below. 
 
 Click on **Save and Activate**. 
+
 ![image](https://github.com/SAP-samples/teched2023-DT169/assets/145970887/4a5bcb20-333a-4388-91e7-168ea321974f)
 
 You will be navigated to the Display KPI page. 
@@ -51,11 +62,13 @@ You will be navigated to the Display KPI page.
 ## Exercise 4.2 Create and publish KPI tile to launch story 
 
 Go back to the main page of Manage KPIs and Reports. 
+
 Switch to the **Stories** tab and search for your Story ‘DT169-XXX Purchasing Spend Dashboard’.(_XXX should be replaced with your group number for eg for place number 25 it is 025_)
 
 ![image](https://github.com/SAP-samples/teched2023-DT169/assets/145970887/68b18a20-be73-401f-b024-ad1877c131f2)
 
 Click on the row to navigate to your story details page and go to the Applications tab.
+
 Click on **Add Tile**.
 
 ![image](https://github.com/SAP-samples/teched2023-DT169/assets/145970887/fa6947c2-f961-4d9e-9b95-dd91f34db290)
@@ -73,7 +86,9 @@ Add Semantic Object as ‘DT169_XXX_KPI’.(_XXX should be replaced with your gr
 ![image](https://github.com/SAP-samples/teched2023-DT169/assets/145970887/5beaaad8-2b59-4fdd-8d05-5b4031cc023f)
 
 Click on **Save and Publish**. 
+
 From the Custom Catalog Extensions application, publish your tile to ‘**SAP_MM_BC_PO_MANAGE_PC**’ , similar to the steps done in Exercise 2.4.
+
 Repeat the steps in Exercise 2.5 to add the tile in the ‘**Purchase Order Processing**’ section. For reference: [Exercise 2.5 -  Accessing the application from Fiori Launchpad ](../ex2/README.md#exercise-25-accessing-the-application-from-fiori-launchpad)
 
 ![image](https://github.com/SAP-samples/teched2023-DT169/assets/145970887/b531df1f-24eb-447a-8703-7b6282035e62)
