@@ -12,6 +12,7 @@ Open https://my407161.s4hana.cloud.sap/ui in Chrome browser installed on your sy
 
 
 
+
 **User Name: DT169_XXX@education.cloud.sap**
 
 **Password: Acce$$teched23**
