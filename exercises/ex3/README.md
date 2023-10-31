@@ -20,8 +20,11 @@ Notice that the story page layout displayed during the runtime is the same as th
 
 In this exercise we will see how you can seamlessly navigate from the SAC story to another S/4HANA application with the required context passed between the two. 
 Scenario for analysis - We want to find the details of the Supplier with the highest number of open purchase order items.
+
 In the ‘Open Purchase Orders’ page, scroll to the chart which displays the Number of Open PO items per Supplier.
+
 Click on the **Ellipsis** button. 
+
 Select **Rank -> Supplier -> Top 5**. This sorts the data in the chart to display the 5 suppliers with the highest open PO items.
 
 ![image](https://github.com/SAP-samples/teched2023-DT169/assets/145970887/d099de57-677a-4120-869e-a1e4be83fad6)
@@ -47,13 +50,17 @@ Navigate back to the SAC story screen.
 Now we want to analyze the data specific for this Supplier. We will now explore how to apply filters in Stories.  
 
 Click on the **Filters** icon on top of the screen.
+
 Click on the **Add filter icon** that appears on the top-left of the screen.
+
 Set a filter for the C_PURCHASEORDERVALUEQUERY which is selected by default.
+
 Search for Supplier in the list of fields and click on it. 
 
 ![image](https://github.com/SAP-samples/teched2023-DT169/assets/145970887/4f6ba866-24a0-4d1e-b7c4-8abe09bb6f6c)
 
 In the list of values search for the Supplier name noted from the Supplier details page.
+
 Select the supplier and Click on **OK**.
 
 ![image](https://github.com/SAP-samples/teched2023-DT169/assets/145970887/97454ff0-d0bb-441e-a01e-2be8b175a0a5)
@@ -64,6 +71,7 @@ So setting a Supplier filter on either of the models will update the charts buil
 ![image](https://github.com/SAP-samples/teched2023-DT169/assets/145970887/8ee9a2a7-183f-4bc1-ba1c-56c34a13ab0c)
 
 Switch to the **Overview page** to view the charts configured for the C_PURCHASEORDERVALUEQUERY model.
+
 Scroll to the “**by Supplier**” chart to view the updated data filtered on selected Supplier.
 
 ![image](https://github.com/SAP-samples/teched2023-DT169/assets/145970887/cc3f4234-5902-4583-81bc-75214705449a)
@@ -75,9 +83,13 @@ Variants store the application settings, such as the filters, as quick-access vi
 Now we will create a new filter for Purchasing Organization and save it as a default variant. When you access your story from the Fiori Launchpad tile the next time, it will directly launch the application with your stored filters.
 
 Switch to the ‘**Open Purchase Orders**’ page.
+
 In the filters section, **remove** the Supplier filter.
+
 Switch the **Data source** selection to **YY1_PURCHASING_DT169_XXX**. 
+
 Select ‘**Purch. Org. Name**’.
+
 ![image](https://github.com/SAP-samples/teched2023-DT169/assets/145970887/f7cef207-7ead-4d3d-9afe-ee29ba136510)
 
 Set the filter value for ‘**DE Purchasing Org**’ and click on **OK**.
@@ -90,6 +102,7 @@ The data will get updated for all the widgets in the Open Purchase Order page. O
 
 
 To save this filter state as a variant, select the drop-down menu available next to the text Standard.
+
 Click on **Save as** button. 
 
 ![image](https://github.com/SAP-samples/teched2023-DT169/assets/145970887/b1126e41-3efc-4d7b-8716-64e9844af159)
@@ -108,6 +121,7 @@ To set your new view as the Default variant, click on **Manage**.
 
 
 On this screen, you can set or remove the view as a favorite, remove variants, or set the variant as the default. 
+
 Change the **Default** selection to the ‘Open PO Items..’ view and click on **Save**.
 
 
@@ -115,6 +129,7 @@ Change the **Default** selection to the ‘Open PO Items..’ view and click on 
 
 
 Go back to Fiori Launchpad Home page and relaunch your application from the **DT169-XXX Purchasing Spend Dashboard** tile.
+
 The SAC story will now be launched with the settings of the Open PO Items for a specific Purch. Org. variant. That is, the filter for Purchasing Organization will already be applied on the story during launch.  
 
 
