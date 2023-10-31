@@ -9,17 +9,21 @@ SAC story applications can be launched with user-specific default values which c
 
 
 Go to the **Analytics Page** in Fiori Launchpad.
+
 Under KPI Design group, launch the Manage KPIs and Reports application.
  
 ![image](https://github.com/SAP-samples/teched2023-DT169/assets/145970887/2b8d4405-d264-4fed-9091-64c945526016)
 
 Switch to the **Stories** tab and search for your Story ‘DT169-XXX Purchasing Spend Dashboard’. 
+
 Click on the **Applications** count on the right.
+
 Select the KPI based **Numeric tile**.  
 
 ![image](https://github.com/SAP-samples/teched2023-DT169/assets/145970887/37ef749f-9956-4a2c-9af1-855ef5ab4afa)
 
 Click on **Edit** button. 
+
 ![image](https://github.com/SAP-samples/teched2023-DT169/assets/145970887/ac330bf2-3f45-4ba9-b0f5-f4a920977e79)
 
 Scroll down to the **Default Values** section and click on **Add**.
@@ -27,7 +31,9 @@ Scroll down to the **Default Values** section and click on **Add**.
 ![image](https://github.com/SAP-samples/teched2023-DT169/assets/145970887/1d3b9212-7fe1-4307-a582-d400e66977c9)
 
 Search for ‘Display Currency’ and click on the checkbox to select it.
-Search for  ‘Purchasing Org.’  and select it similarly. 
+
+Search for  ‘Purchasing Org.’  and select it similarly.
+
 Click on **Select**. 
 
 ![image](https://github.com/SAP-samples/teched2023-DT169/assets/145970887/f88fa2e9-575a-4dfc-beb4-fa511855b59a)
@@ -50,15 +56,19 @@ Click on the User settings menu on the top-right and click on **Settings**.
 ![image](https://github.com/SAP-samples/teched2023-DT169/assets/145970887/438a4099-895b-45a8-acfc-4d0a7889e45b)
 
 Select **Default Values**. 
+
 Add ‘USD’ in the **Display Currency** field. 
 
 ![image](https://github.com/SAP-samples/teched2023-DT169/assets/145970887/df89f2d6-2565-4d31-af3c-fffd5eb98656)
 
 Search for **Purchasing Org.** in the list and search for ‘_US Purchasing Org_’. Select the value. 
+
 Click on **Save**.  
+
 ![image](https://github.com/SAP-samples/teched2023-DT169/assets/145970887/51c3493c-f878-427d-861b-ae3443ff8cf5)
 
 **This sets the default values as Display Currency = USD and Purchasing Org. = 1710.**
+
 
 Click on the **Refresh** button at the bottom of the KPI tile.
 
@@ -70,6 +80,7 @@ The data will get updated according to the Default values maintained in the Fior
 ![image](https://github.com/SAP-samples/teched2023-DT169/assets/145970887/81cc7e83-6826-40e8-a73b-13fa8dc13187)
 
 Click on the tile to navigate inside the story. 
+
 The Default values will automatically be applied as filter values for all the charts in the story. 
 
 ![image](https://github.com/SAP-samples/teched2023-DT169/assets/145970887/d7239685-10f3-4884-b849-7b543dd313e3)
