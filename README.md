@@ -9,6 +9,11 @@ This repository contains the material for the SAP TechEd 2023 session called DT1
 This session introduces attendees to learn on how to design analytical queries and build analytical applications for SAP S/4HANA Cloud.
 Here key users will be able to understand how to use Custom analytical Queries app to design the analytical query for the existing SAP delivered Cube. They can extend the cube according to their business processes. Later on this custom created query can be consumed in various types of analytical reports such as embedded analytical cloud stories, KPIs, smart business drilldown reports etc. which can be published as an application on Fiori Launchpad.
 
+
+![image](https://github.com/SAP-samples/teched2023-DT169/assets/145970887/51beba35-e0f9-4e47-b2c0-2a13f35c94e6)
+
+
+
 ## Requirements
 
 There are no pre-requisites required for this session.
@@ -24,7 +29,7 @@ Basic understanding of SAP S/4HANA Cloud is good to have.
     - [Exercise 1.3 - Add a Calculated measure to the custom query](exercises/ex1#exercise-13-add-a-calculated-measure-to-the-custom-query)
     - [Exercise 1.4 - Add default values for input filters](exercises/ex1#exercise-14-add-default-values-for-input-filters)
     - [Exercise 1.5 - Publish the Query and Open it for analysis in preview mode](exercises/ex1#exercise-15-publish-the-query-and-open-it-for-analysis-in-preview-mode)
-- [Exercise 2 - Exercise 2 - Design and publish custom SAC Stories](exercises/ex2/)
+- [Exercise 2 - Design and publish custom SAC Stories](exercises/ex2/)
     - [Exercise 2.1 - Access embedded SAC stories from Manage KPIs and Reports](exercises/ex2#exercise-21-access-embedded-sac-stories-from-manage-kpis-and-reports)
     - [Exercise 2.2 - Copy pre-defined dashboard and enhance the story with the custom analytical query](exercises/ex2#exercise-22-copy-pre-defined-dashboard-and-enhance-the-story-with-the-custom-analytical-query)
     - [Exercise 2.3 - Add widgets and activate the story](exercises/ex2#exercise-23-add-widgets-and-activate-the-story)
