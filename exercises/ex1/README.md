@@ -18,7 +18,9 @@ View Browser application is used to get a list of all CDS views available in the
 Search for **C_PURCHASINGGROUPANALYSIS** in the search bar. 
 
 Click on the checkbox to select the C_PURCHASINGGROUPANALYSIS view.
+
 Click on the Ellipses icon on the right to expand the available options for the view.
+
 Choose Create Analytical Query.
 
 ![image](https://github.com/SAP-samples/teched2023-DT169/assets/145970887/dad688e6-5996-4f37-b101-680d04165ce1)
@@ -32,14 +34,22 @@ Enter 'PURCHASING_DT169_XXX' as the query name. (_XXX should be replaced with yo
 Provide a Label for the query, for example 'Purchasing Analysis Open Purchase Orders'.
 
 Switch to the Field selection tab to design the metadata of your query.
-    Select the following fields for your custom query: 
+    Select the following fields for your custom query:    
+    
         - Invoice Amount
+        
         - PO Net Amount
+        
         - Number of Purchase Order Items
+        
         - Supplier
+        
         - Name of Supplier
+        
         - Calendar Month
+        
         - Purch. Organization
+        
         - Purch. Org. Name
 
 ![image](https://github.com/SAP-samples/teched2023-DT169/assets/145970887/16636397-279a-4be1-8a04-c3aa3cd623f3)
@@ -74,34 +84,47 @@ Click on **User Input Filter** and select ‘**P_StartDate**’ which will be th
 
 Add ‘to’ after this P_StartDate in the text area.
 Click on **User Input Filter** again and select '**P_EndDate**'.
+
 The final expression will look like **Number of Open PO Items from "P_StartDate" to "P_EndDate"**
 
 ![image](https://github.com/SAP-samples/teched2023-DT169/assets/145970887/72efed8a-b72c-4e7b-99bf-d1428dd1c567)
 
-Defining the formula for the calculated field -     
+**Defining the formula for the calculated field**
+
 Scroll down to '**Expression**' and click on Edit for the Formula section.
+
 Click on '**Measures**' button and select 'Number of PO Items'. 
+
 ![image](https://github.com/SAP-samples/teched2023-DT169/assets/145970887/1764911f-745e-4dd4-9630-4021cce9bd0c)
 
 Click on the minus ('-') button.
+
 Click on '**Measures**' button again and select 'Number of Deliveries'. 
+
 The final expression should look like "Number of PO Items"-"Number of Deliveries". Click on OK.
+
 ![image](https://github.com/SAP-samples/teched2023-DT169/assets/145970887/55eef340-2f93-4a13-989c-0442fdb23ff9)
 
 ## Exercise 1.4 Add default values for input filters
 
 Switch to Filters tab.
+
 Select the field 'Display Currency'. 
+
 The details of the field are displayed on the right. 
+
 Under **User Input Values**, enter 'EUR' as the Default value for Display Currency.
+
 ![image](https://github.com/SAP-samples/teched2023-DT169/assets/145970887/f057ece8-f2ac-48df-8e3f-dafc3bdea2f2)
 
 In the list of fields, search for 'Relative Date Function' and select the field.
+
 Under **User Input Values** and maintain **Default Value** as "relative:YEARTODATE".
 
 ![image](https://github.com/SAP-samples/teched2023-DT169/assets/145970887/a1c1e110-2ac0-4b2b-858f-8e7accae812b)
 
 Next, search for 'Validity Start’ and select the field.
+
 Go to 'Fixed Values' and click on the value help icon.
 
 ![image](https://github.com/SAP-samples/teched2023-DT169/assets/145970887/bc801437-0ffd-44a2-b9c0-da449455d5c1)
@@ -109,13 +132,20 @@ Go to 'Fixed Values' and click on the value help icon.
 Select the '**User Input Values**' tab and select the 'P_Datefunction'. Click on OK. 
 
 ![image](https://github.com/SAP-samples/teched2023-DT169/assets/145970887/cd66767b-4c6c-48c6-9cf1-182741555bb8)
+
+
 The dropdown beside the Include field should display 'Start'.
 
 Search for 'Validity End' and select the field.
+
 Go to 'Fixed Values' and click on the value help icon.
+
 Select the 'User Input Values' tab and select the 'P_Datefunction'. Click on OK.
+
 ![image](https://github.com/SAP-samples/teched2023-DT169/assets/145970887/7989ea6e-040f-4d21-b1b7-b27473f112d0)
+
 Click on the dropdown beside the Include field and change the value to 'End'. 
+
 ![image](https://github.com/SAP-samples/teched2023-DT169/assets/145970887/032973dd-8a0d-4759-92d6-bbb693980bba)
 
 ## Exercise 1.5 Publish the Query and Open it for analysis in preview mode
