@@ -16,6 +16,7 @@ View Browser application is used to get a list of all CDS views available in the
 
 
 Search for **C_PURCHASINGGROUPANALYSIS** in the search bar. 
+
 Click on the checkbox to select the C_PURCHASINGGROUPANALYSIS view.
 Click on the Ellipses icon on the right to expand the available options for the view.
 Choose Create Analytical Query.
