@@ -10,8 +10,7 @@ This session introduces attendees to learn on how to design analytical queries a
 Here key users will be able to understand how to use Custom analytical Queries app to design the analytical query for the existing SAP delivered Cube. They can extend the cube according to their business processes. Later on this custom created query can be consumed in various types of analytical reports such as embedded analytical cloud stories, KPIs, smart business drilldown reports etc. which can be published as an application on Fiori Launchpad.
 
 
-![image](https://github.com/SAP-samples/teched2023-DT169/assets/145970887/51beba35-e0f9-4e47-b2c0-2a13f35c94e6)
-
+![image](https://github.com/SAP-samples/teched2023-DT169/assets/145970887/12d26482-c047-4166-8c14-c8ee9fdf09ab)
 
 
 ## Requirements
