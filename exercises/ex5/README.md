@@ -88,7 +88,7 @@ The Default values will automatically be applied as filter values for all the ch
 
 ## Summary
 
-You've now learnt how to consider default values for analytical reports
+You have now configured your application to consider default values in analytical reports
 
 Continue to - [Exercise 6 - Create and launch Generic Drilldown report for KPI ](../ex6/README.md)
 
