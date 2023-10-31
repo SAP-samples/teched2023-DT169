@@ -13,6 +13,7 @@ Open https://my407161.s4hana.cloud.sap/ui in Chrome browser installed on your sy
 
 **User Name: DT169_XXX@education.cloud.sap
 Password: Acce$$teched23**
+
 _Please replace the XXX in the user name with your place number (e.g. DT169_001@education.cloud.sap)
 similarly for place number 25, user name will be DT169_025@education.cloud.sap_
 
