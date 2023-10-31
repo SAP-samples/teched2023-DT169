@@ -15,7 +15,7 @@ View Browser application is used to get a list of all CDS views available in the
 ![image](https://github.com/SAP-samples/teched2023-DT169/assets/145970887/ce1836a4-9cd9-4eca-8a54-802d05e2fdc2)
 
 
-Search for C_PURCHASINGGROUPANALYSIS in the search bar. 
+Search for **C_PURCHASINGGROUPANALYSIS** in the search bar. 
 Click on the checkbox to select the C_PURCHASINGGROUPANALYSIS view.
 Click on the Ellipses icon on the right to expand the available options for the view.
 Choose Create Analytical Query.
