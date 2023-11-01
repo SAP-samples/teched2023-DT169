@@ -33,29 +33,25 @@ Enter 'PURCHASING_DT169_XXX' as the query name. (_XXX should be replaced with yo
 Provide a Label for the query, for example 'Purchasing Analysis Open Purchase Orders'.
 
 Switch to the Field selection tab to design the metadata of your query.
+
     Select the following fields for your custom query:    
     
-        - Invoice Amount
-        
-        - PO Net Amount
-        
-        - Number of Purchase Order Items
-        
-        - Supplier
-        
-        - Name of Supplier
-        
-        - Calendar Month
-        
-        - Purch. Organization
-        
+        - Invoice Amount        
+        - PO Net Amount        
+        - Number of Purchase Order Items        
+        - Supplier        
+        - Name of Supplier        
+        - Calendar Month        
+        - Purch. Organization        
         - Purch. Org. Name
 
+        
 ![image](https://github.com/SAP-samples/teched2023-DT169/blob/main/exercises/ex1/images/3.png)
 
-Switch to Display tab to view the selected fields.
+Switch to **Display** tab to view the selected fields.
 
-For the dimension fields (Supplier, Name of Supplier, Calendar Month, Purch. Organization, Purch. Org. Name), click on the Axis property on the right and change to 'Row'. 
+For the dimension fields (Supplier, Name of Supplier, Calendar Month, Purch. Organization, Purch. Org. Name), click on the Axis property on the right and change to 'Row'.
+
 ![image](https://github.com/SAP-samples/teched2023-DT169/blob/main/exercises/ex1/images/4.png)
 
 **Override Measure Label**
