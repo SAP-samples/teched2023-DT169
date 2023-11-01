@@ -21,8 +21,20 @@ _Please replace the XXX in the user name with your place number (e.g. DT169_001@
 similarly for place number 25, user name will be DT169_025@education.cloud.sap_
 
 
+| Place Number / Group Number | Login user ID 					|
+| :---:                       | :---:           				|
+| 001         				  | DT169_001@education.cloud.sap 	|
+| 002         				  | DT169_002@education.cloud.sap	| 
+| 003        				  | DT169_002@education.cloud.sap   |
+| 004       				  | DT169_002@education.cloud.sap   |
+| 005       				  | DT169_002@education.cloud.sap   |
+| 006       				  | DT169_002@education.cloud.sap   |
+| ....      				  | ....            				|   
+| 040      					  | DT169_002@education.cloud.sap   |
+
 After logging in you should be able to see the site like this
-![image](https://github.com/SAP-samples/teched2023-DT169/blob/main/exercises/ex0/images/Creation%20flow.png)
+
+![image](https://github.com/SAP-samples/teched2023-DT169/blob/main/exercises/ex0/images/3.png)
 
 
 ## Summary
