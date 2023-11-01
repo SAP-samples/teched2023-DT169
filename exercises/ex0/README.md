@@ -22,7 +22,7 @@ similarly for place number 25, user name will be DT169_025@education.cloud.sap_
 
 
 After logging in you should be able to see the site like this
-![image](https://github.com/SAP-samples/teched2023-DT169/assets/145970887/0ce30459-3f26-4efb-8760-7b5534a9830c)
+![image](https://github.com/SAP-samples/teched2023-DT169/blob/main/exercises/ex0/images/Creation%20flow.png)
 
 
 ## Summary
