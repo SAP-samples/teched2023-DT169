@@ -25,12 +25,12 @@ similarly for place number 25, user name will be DT169_025@education.cloud.sap_
 | :---:                       | :---:           				|
 | 001         				  | DT169_001@education.cloud.sap 	|
 | 002         				  | DT169_002@education.cloud.sap	| 
-| 003        				  | DT169_002@education.cloud.sap   |
-| 004       				  | DT169_002@education.cloud.sap   |
-| 005       				  | DT169_002@education.cloud.sap   |
-| 006       				  | DT169_002@education.cloud.sap   |
+| 003        				  | DT169_003@education.cloud.sap   |
+| 004       				  | DT169_004@education.cloud.sap   |
+| 005       				  | DT169_005@education.cloud.sap   |
+| 006       				  | DT169_006@education.cloud.sap   |
 | ....      				  | ....            				|   
-| 040      					  | DT169_002@education.cloud.sap   |
+| 040      					  | DT169_040@education.cloud.sap   |
 
 After logging in you should be able to see the site like this
 
