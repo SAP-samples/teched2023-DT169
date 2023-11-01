@@ -33,27 +33,27 @@ Click on the **Edit** button on top.
 
 To add a new page, Click on the “+” button beside **Off Contract Details** and select **Responsive**.
 
-![image](https://github.com/SAP-samples/teched2023-DT169/assets/145970887/9298e670-6351-4808-a92c-0eb9a8480019)
+![image](https://github.com/SAP-samples/teched2023-DT169/blob/main/exercises/ex2/images/5.png)
 
 Rename the page by clicking on the down arrow beside ‘**Page 1**’.
 
-![image](https://github.com/SAP-samples/teched2023-DT169/assets/145970887/f31af115-0556-4399-a5a1-22da002cc99a)
+![image](https://github.com/SAP-samples/teched2023-DT169/blob/main/exercises/ex2/images/6.png)
 
 Enter ‘Open Purchase Orders’ as the new name for the page. 
 
 Under Data section, add New Data source.
 
-![image](https://github.com/SAP-samples/teched2023-DT169/assets/145970887/e9330ebf-26e6-4984-9d8b-9c863f1d357b)
+![image](https://github.com/SAP-samples/teched2023-DT169/blob/main/exercises/ex2/images/7.png)
 
 Search for the custom analytical query created in Exercise 1, i.e, **YY1_PURCHASING_DT169_XXX**.
 (_XXX should be replaced with your group number for eg for place number 25 it is 025_)
 
-![image](https://github.com/SAP-samples/teched2023-DT169/assets/145970887/8f149219-9881-44a5-9ae1-fe5004f1d6dc)
+![image](https://github.com/SAP-samples/teched2023-DT169/blob/main/exercises/ex2/images/8.png)
 
 A prompt will be displayed to set the variables for the data source. Since the filter values were already prefilled during the query designing, no change is required here. 
 
 Click on **Set**.
-![image](https://github.com/SAP-samples/teched2023-DT169/assets/145970887/4b2f1b31-f567-441e-a636-eda1479a62c2)
+![image](https://github.com/SAP-samples/teched2023-DT169/blob/main/exercises/ex2/images/9.png)
 
 ## Exercise 2.3 Add widgets and activate the story
 
@@ -61,10 +61,10 @@ First, we will add a chart to see the Number of Open PO Items per Supplier. The 
 
 Under the **Insert** section, click on the **Chart** icon to add a new chart.
 
-![image](https://github.com/SAP-samples/teched2023-DT169/assets/145970887/bfa9a843-70b4-4b3f-9687-84d3df2089a4)
+![image](https://github.com/SAP-samples/teched2023-DT169/blob/main/exercises/ex2/images/10.png)
 
 In the **Builder** section, scroll down to **Measures** section and click on **Add Measure**.
-![image](https://github.com/SAP-samples/teched2023-DT169/assets/145970887/648d8b11-a8ca-4a09-ab54-b13905f312d7)
+![image](https://github.com/SAP-samples/teched2023-DT169/blob/main/exercises/ex2/images/11.png)
 
 Select ‘**Number of Open PO items from…**’ .
 
@@ -76,7 +76,7 @@ Similarly, add another chart widget that will display the Number of open PO Item
 
 Along with selecting the required measures and dimensions, you can also change the Chart orientation from ‘Horizontal’ to ‘Vertical’.
 
-![image](https://github.com/SAP-samples/teched2023-DT169/assets/145970887/c3e54273-1fe0-4aff-b47e-b5ba19a7d897)
+![image](https://github.com/SAP-samples/teched2023-DT169/blob/main/exercises/ex2/images/12.png)
 
 The chart data will get updated in real time inside the widgets.
 
@@ -86,17 +86,17 @@ Go to the empty page section on the right and add another chart widget.
 
 In the **Builder** section, go to **Measures** section and click on **Calculated measure**. 
 
-![image](https://github.com/SAP-samples/teched2023-DT169/assets/145970887/14b826f7-0d12-4296-9282-00d7f8bacac6)
+![image](https://github.com/SAP-samples/teched2023-DT169/blob/main/exercises/ex2/images/13.png)
 
 Enter the Name as ‘PO Net Amount in Thousands’.
 
 Inside the **Edit formula** section, type PO and select **PO Net Amount** from the suggestions.
 
-![image](https://github.com/SAP-samples/teched2023-DT169/assets/145970887/a8f982c2-4a0b-41a4-8b1c-1798fa1747a0)
+![image](https://github.com/SAP-samples/teched2023-DT169/blob/main/exercises/ex2/images/14.png)
 
 Add ‘ / 1000 ‘ after the PO Net amount to scale the amount in thousands.
 
-![image](https://github.com/SAP-samples/teched2023-DT169/assets/145970887/0eb8ee24-e362-4680-b5d8-f50222640370)
+![image](https://github.com/SAP-samples/teched2023-DT169/blob/main/exercises/ex2/images/15.png)
 
 Click on **OK**.
 
@@ -104,11 +104,11 @@ In the Dimensions, add ‘**Calendar Month**’ and ‘**Supplier**’ to the sa
 
 Change the **Chart** structure to **Trend -> Line**.
 
-![image](https://github.com/SAP-samples/teched2023-DT169/assets/145970887/542bfb9e-29f0-439b-8e26-f4d303835c0d)
+![image](https://github.com/SAP-samples/teched2023-DT169/blob/main/exercises/ex2/images/16.png)
 
 Change the titles of the page sections.
 
-![image](https://github.com/SAP-samples/teched2023-DT169/assets/145970887/daf6ee50-8873-4559-b1e6-18392c163ea3)
+![image](https://github.com/SAP-samples/teched2023-DT169/blob/main/exercises/ex2/images/17.png)
 
 You can explore the other designing options in the Builder and add more charts to your page.
 
@@ -118,25 +118,25 @@ Add another chart with **Measure** ‘Number of Open PO Items from..’.
 
 Change the Chart structure to **Indicator** -> **Numeric Point**.
 
-![image](https://github.com/SAP-samples/teched2023-DT169/assets/145970887/8f758c26-8f63-456a-85de-67712d4d916a)
+![image](https://github.com/SAP-samples/teched2023-DT169/blob/main/exercises/ex2/images/18.png)
 
 Go to **Color** section and click on **Add Threshold**.
 
-![image](https://github.com/SAP-samples/teched2023-DT169/assets/145970887/aef6ad8c-3499-4680-b181-fbd11dd0dee0)
+![image](https://github.com/SAP-samples/teched2023-DT169/blob/main/exercises/ex2/images/19.png)
 
 Inside thresholds, select the Measure as ‘**Number of Open PO items from…**’. 
 
-![image](https://github.com/SAP-samples/teched2023-DT169/assets/145970887/f8d07e42-eca2-4d53-86e6-28c8876b024f)
+![image](https://github.com/SAP-samples/teched2023-DT169/blob/main/exercises/ex2/images/20.png)
 
 Maintain the **Ranges** as displayed in the image below. These define the thresholds for being marked in the OK, Warning or Critical state.
 
-![image](https://github.com/SAP-samples/teched2023-DT169/assets/145970887/e809593e-5f13-42d4-804a-f543ca9bcf31)
+![image](https://github.com/SAP-samples/teched2023-DT169/blob/main/exercises/ex2/images/21.png)
 
 Click on **Apply**.
 
 The numerical point will update the color of the data according to the defined threshold values.
 
-![image](https://github.com/SAP-samples/teched2023-DT169/assets/145970887/2113b2fd-a9dd-4f24-84ab-dfa47fdf0010)
+![image](https://github.com/SAP-samples/teched2023-DT169/blob/main/exercises/ex2/images/22.png)
 
 
 **Linking models within the story**
@@ -145,26 +145,26 @@ You can link dimensions between models to create charts or tables that display d
 
 Click on the ‘**Link Dimensions**’ icon on the top. 
 
-![image](https://github.com/SAP-samples/teched2023-DT169/assets/145970887/c1c52752-b7d9-4f37-9963-8917b4050999)
+![image](https://github.com/SAP-samples/teched2023-DT169/blob/main/exercises/ex2/images/23.png)
 
 Select the model on the left as ‘C_PURCHASEORDERVALUEQUERY’ and the custom query ‘YY1_PURCHASING_DT169_XXX’ on the right dropdown.
 
-![image](https://github.com/SAP-samples/teched2023-DT169/assets/145970887/f5e4c068-7fa7-4de5-9b49-d8c7e4a24884)
+![image](https://github.com/SAP-samples/teched2023-DT169/blob/main/exercises/ex2/images/24.png)
 
 
 Choose the ‘**Supplier**’ dimension on both sides.
 
-![image](https://github.com/SAP-samples/teched2023-DT169/assets/145970887/b2025086-5802-46c3-9ace-1930fb2240f2)
+![image](https://github.com/SAP-samples/teched2023-DT169/blob/main/exercises/ex2/images/25.png)
 
 Click on **Set**. Click on **Done**.
 
 You can modify the visualization of the numerical point by selecting the required options from **Show/Hide**.
 
-![image](https://github.com/SAP-samples/teched2023-DT169/assets/145970887/c3a72d6b-014b-491e-b54a-ab36ffcae88c)
+![image](https://github.com/SAP-samples/teched2023-DT169/blob/main/exercises/ex2/images/26.png)
 
 
 You can explore further by adding more widgets with charts, tables, data points with different measures and dimensions. You can also rearrange and resize the widgets freely according to your design requirements.
-![image](https://github.com/SAP-samples/teched2023-DT169/assets/145970887/49525d55-8e24-4054-bea4-16856b4f7182)
+![image](https://github.com/SAP-samples/teched2023-DT169/blob/main/exercises/ex2/images/27.png)
 
 Click on **Activate**.
 
@@ -176,18 +176,18 @@ You can review the modifications from the Configuration tab.
 
 Switch to the **Applications** tab and click on the + icon. 
 
-![image](https://github.com/SAP-samples/teched2023-DT169/assets/145970887/aa80f1c9-67ee-4944-9430-d6a66c175204)
+![image](https://github.com/SAP-samples/teched2023-DT169/blob/main/exercises/ex2/images/28.png)
 
 Select **Static** tile and click on OK.
 
-![image](https://github.com/SAP-samples/teched2023-DT169/assets/145970887/2c835fe8-5dce-4e17-8c89-18ae7cd054b0)
+![image](https://github.com/SAP-samples/teched2023-DT169/blob/main/exercises/ex2/images/29.png)
 
 Title will be pre-filled with the name of the Story. You can change the title and subtitle as per your requirement. These texts will be used to distinguish your tile in the Fiori Launchpad.
 
 Under Target mapping section, enter the Semantic Object as ‘**DT169_XXX**’. 
 (_XXX should be replaced with your group number for eg for place number 25 it is 025_)
 
-![image](https://github.com/SAP-samples/teched2023-DT169/assets/145970887/85db9ac0-a889-44c3-b658-674a04cacdba)
+![image](https://github.com/SAP-samples/teched2023-DT169/blob/main/exercises/ex2/images/30.png)
 
 Default Values and Navigation Intents can be left empty for this exercise.
 
@@ -199,16 +199,18 @@ Click on **Add** and search for the catalog ‘**SAP_MM_BC_PO_MANAGE_PC**’.
 
 Select the Catalog and click on **OK**.
 
-![image](https://github.com/SAP-samples/teched2023-DT169/assets/145970887/cfa6c97a-97f7-4f20-b49a-9c19cd47e124)
+![image](https://github.com/SAP-samples/teched2023-DT169/blob/main/exercises/ex2/images/31.png)
 
 Click on **Publish**.
 
-![image](https://github.com/SAP-samples/teched2023-DT169/assets/145970887/6843a0f0-f468-4fb2-b673-bf09b99df749)
+![image](https://github.com/SAP-samples/teched2023-DT169/blob/main/exercises/ex2/images/32.png)
 
 When the status changes from ‘Publishing’ to ‘Published’, your tile is ready for use.  
 
-![image](https://github.com/SAP-samples/teched2023-DT169/assets/145970887/fb7f4be9-721a-4e05-b3a5-6d28cf9c2723)
-![image](https://github.com/SAP-samples/teched2023-DT169/assets/145970887/bed4369a-a2c0-4079-825b-60ea12d0b3e4)
+![image](https://github.com/SAP-samples/teched2023-DT169/blob/main/exercises/ex2/images/33.png)
+
+
+![image](https://github.com/SAP-samples/teched2023-DT169/blob/main/exercises/ex2/images/34.png)
 
 ## Exercise 2.5 Accessing the application from Fiori Launchpad
 
@@ -216,28 +218,28 @@ Launch https://my407161.s4hana.cloud.sap/ui in a new tab in your browser.
 
 From the Home page, navigate to the ‘**Purchase Order Processing**’ section under **Purchasing page**.
 
-![image](https://github.com/SAP-samples/teched2023-DT169/assets/145970887/06d0a97b-09ed-4ccc-a693-e3d3f1a77ad8)
+![image](https://github.com/SAP-samples/teched2023-DT169/blob/main/exercises/ex2/images/35.png)
 
 Go to the User settings icon on the top-right and click on **Edit Current Page**. 
 
-![image](https://github.com/SAP-samples/teched2023-DT169/assets/145970887/68492c65-2ce3-451b-811e-28ef1b880e90)
+![image](https://github.com/SAP-samples/teched2023-DT169/blob/main/exercises/ex2/images/36.png)
 
 Click on **Add tile**.
 
-![image](https://github.com/SAP-samples/teched2023-DT169/assets/145970887/c7c1f653-dee1-4420-a583-991bb0bd03dd)
+![image](https://github.com/SAP-samples/teched2023-DT169/blob/main/exercises/ex2/images/37.png)
 
 Search the title of your newly created application in the search bar. 
 
 The search result will show your tile. Click on the **add** icon.
 
-![image](https://github.com/SAP-samples/teched2023-DT169/assets/145970887/a1b89b07-01db-4d1a-b802-b86111cc856a)
+![image](https://github.com/SAP-samples/teched2023-DT169/blob/main/exercises/ex2/images/38.png)
 
 Exit edit mode and go back to the Purchase Order Processing page.
-![image](https://github.com/SAP-samples/teched2023-DT169/assets/145970887/2af8481a-6b26-4f34-aab7-e6174e52ee20)
+![image](https://github.com/SAP-samples/teched2023-DT169/blob/main/exercises/ex2/images/39.png)
 
 You can now launch your Story from the Fiori Launchpad tile. Proceed to the next exercise where we will explore some of the features inside this SAC story report.
 
-![image](https://github.com/SAP-samples/teched2023-DT169/assets/145970887/93d6faea-1f0a-483f-8f42-6ed47f047860)
+![image](https://github.com/SAP-samples/teched2023-DT169/blob/main/exercises/ex2/images/40.png)
 
 ## Summary
 
