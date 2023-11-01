@@ -6,7 +6,7 @@ In this exercise, we will design a SAC Story by copying and enhancing a pre-defi
 
 Go back to the Analytics Page in Fiori Launchpad.
 Under KPI Design group, launch the Manage KPIs and Reports application.
-![image](https://github.com/SAP-samples/teched2023-DT169/assets/145970887/0f615881-743f-4418-8319-b3dd7055047d)
+![image](https://github.com/SAP-samples/teched2023-DT169/blob/main/exercises/ex2/images/1.png)
 
 Go to the ‘**Stories**’ tab. You will find the list of embedded analytical stories under the ‘**Embedded Stories**’ section. 
 
@@ -14,18 +14,18 @@ Search for ‘Purchasing Spend Dashboard’.
 The search result will display the predefined story. Click on the row to navigate inside the Purchasing Spend Dashboard story details page.
 
 Switch to **Configuration** section to view the predefined story configuration.
-![image](https://github.com/SAP-samples/teched2023-DT169/assets/145970887/e5d01ac6-6588-4e37-a8be-b31720884bee)
+![image](https://github.com/SAP-samples/teched2023-DT169/blob/main/exercises/ex2/images/2.png)
 
 ## Exercise 2.2 Copy pre-defined dashboard and enhance the story with the custom analytical query
 
 
 Click on **Copy** button on the top of the screen.
-![image](https://github.com/SAP-samples/teched2023-DT169/assets/145970887/82ece805-4243-438a-af01-041330aa200f)
+![image](https://github.com/SAP-samples/teched2023-DT169/blob/main/exercises/ex2/images/3.png)
 
 Enter the title as ‘DT169-XXX Purchasing Spend Dashboard’ and click on **Copy**.
 (_XXX should be replaced with your group number for eg for place number 25 it is 025_)
 
-![image](https://github.com/SAP-samples/teched2023-DT169/assets/145970887/5a343bb9-ee82-4739-911f-bf57bfdb178f)
+![image](https://github.com/SAP-samples/teched2023-DT169/blob/main/exercises/ex2/images/4.png)
 
 You will be navigated to the display page of your newly copied story. 
 
