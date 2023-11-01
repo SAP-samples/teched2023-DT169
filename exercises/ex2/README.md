@@ -5,21 +5,26 @@ In this exercise, we will design a SAC Story by copying and enhancing a pre-defi
 ## Exercise 2.1 Access embedded SAC stories from Manage KPIs and Reports
 
 Go back to the Analytics Page in Fiori Launchpad.
-Under KPI Design group, launch the Manage KPIs and Reports application.
+
+Under KPI Design group, launch the **Manage KPIs and Reports** application.
+
 ![image](https://github.com/SAP-samples/teched2023-DT169/blob/main/exercises/ex2/images/1.png)
 
 Go to the ‘**Stories**’ tab. You will find the list of embedded analytical stories under the ‘**Embedded Stories**’ section. 
 
 Search for ‘Purchasing Spend Dashboard’. 
+
 The search result will display the predefined story. Click on the row to navigate inside the Purchasing Spend Dashboard story details page.
 
 Switch to **Configuration** section to view the predefined story configuration.
+
 ![image](https://github.com/SAP-samples/teched2023-DT169/blob/main/exercises/ex2/images/2.png)
 
 ## Exercise 2.2 Copy pre-defined dashboard and enhance the story with the custom analytical query
 
 
 Click on **Copy** button on the top of the screen.
+
 ![image](https://github.com/SAP-samples/teched2023-DT169/blob/main/exercises/ex2/images/3.png)
 
 Enter the title as ‘DT169-XXX Purchasing Spend Dashboard’ and click on **Copy**.
@@ -53,11 +58,12 @@ Search for the custom analytical query created in Exercise 1, i.e, **YY1_PURCHAS
 A prompt will be displayed to set the variables for the data source. Since the filter values were already prefilled during the query designing, no change is required here. 
 
 Click on **Set**.
+
 ![image](https://github.com/SAP-samples/teched2023-DT169/blob/main/exercises/ex2/images/9.png)
 
 ## Exercise 2.3 Add widgets and activate the story
 
-First, we will add a chart to see the Number of Open PO Items per Supplier. The **Number of Open PO Items** is the calculated measure that was introduced in the custom query. 
+First, we will add a chart to see the Number of Open PO Items per Supplier. Note that **Number of Open PO Items** is the field which was added in the custom query as a new calculated measure. 
 
 Under the **Insert** section, click on the **Chart** icon to add a new chart.
 
@@ -68,7 +74,7 @@ In the **Builder** section, scroll down to **Measures** section and click on **A
 
 Select ‘**Number of Open PO items from…**’ .
 
-Under Dimensions sections, click on Add Dimensions and select ‘**Supplier**’ and ‘**Name of Supplier**’.
+Under Dimensions sections, click on **Add Dimensions** and select ‘**Supplier**’ and ‘**Name of Supplier**’.
 
 The chart will get updated with the appropriate title on the widget. 
 
@@ -80,9 +86,9 @@ Along with selecting the required measures and dimensions, you can also change t
 
 The chart data will get updated in real time inside the widgets.
 
-Now we will add a chart configured on a new calculated measure. 
+Now we will add another calculated measure and add a chart for it. 
 
-Go to the empty page section on the right and add another chart widget.
+Click on the empty space in the page section on the right and add another chart widget.
 
 In the **Builder** section, go to **Measures** section and click on **Calculated measure**. 
 
@@ -112,6 +118,7 @@ Change the titles of the page sections.
 
 You can explore the other designing options in the Builder and add more charts to your page.
 
+
 **Adding Numerical points in the story**
 
 Add another chart with **Measure** ‘Number of Open PO Items from..’.
@@ -139,6 +146,7 @@ The numerical point will update the color of the data according to the defined t
 ![image](https://github.com/SAP-samples/teched2023-DT169/blob/main/exercises/ex2/images/22.png)
 
 
+
 **Linking models within the story**
 
 You can link dimensions between models to create charts or tables that display data from multiple models. Linked dimensions also let you create filters that simultaneously update all charts that include linked data. 
@@ -163,20 +171,27 @@ You can modify the visualization of the numerical point by selecting the require
 ![image](https://github.com/SAP-samples/teched2023-DT169/blob/main/exercises/ex2/images/26.png)
 
 
-You can explore further by adding more widgets with charts, tables, data points with different measures and dimensions. You can also rearrange and resize the widgets freely according to your design requirements.
+You can explore further by adding more widgets with charts, tables, data points with different measures and dimensions. 
+You can also rearrange and resize the widgets freely according to your design requirements.
+
 ![image](https://github.com/SAP-samples/teched2023-DT169/blob/main/exercises/ex2/images/27.png)
+
+Once your story configuration is completed, click on the **Definition** tab on top. Since this is a copied story, the Description and the Tags is already populated from the parent story. You can modify these as per your requirements.
+
+![image](https://github.com/SAP-samples/teched2023-DT169/blob/main/exercises/ex2/images/Definition.png)
 
 Click on **Activate**.
 
 You will be navigated to the Display Story page after successful activation. 
 
-You can review the modifications from the Configuration tab.
+You can review the modifications from the **Configuration** tab.
 
 ## Exercise 2.4 Create Fiori Launchpad application to launch the story
 
 Switch to the **Applications** tab and click on the + icon. 
 
 ![image](https://github.com/SAP-samples/teched2023-DT169/blob/main/exercises/ex2/images/28.png)
+
 
 Select **Static** tile and click on OK.
 
