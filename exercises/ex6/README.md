@@ -18,7 +18,7 @@ Search for your KPI ‘DT169_XXX Purchase Order KPI’ and click on the row to n
 
 Click on **Create Report -> Generic Drilldown**. 
 
-![image](https://github.com/SAP-samples/teched2023-DT169/assets/145970887/36b3ed88-6eb9-4e21-8ec4-7ac68944854f)
+![image](https://github.com/SAP-samples/teched2023-DT169/blob/main/exercises/ex6/images/ex6-1.png)
 
 
 The **Definition** section is prefilled with the name of the KPI. You can change it to any suitable name for your Report. 
