@@ -58,7 +58,7 @@ For the dimension fields (Supplier, Name of Supplier, Calendar Month, Purch. Org
 
 **Override Measure Label**
 
-Search for the measure 'NUMBEROFPURCHASEORDERITEMS', and under the Properties section, enter the 'Override Label' as 'Number of PO Items'.
+Search for the measure **'NUMBEROFPURCHASEORDERITEMS'**, and under the Properties section, enter the 'Override Label' as 'Number of PO Items'.
 
 ![image](https://github.com/SAP-samples/teched2023-DT169/blob/main/exercises/ex1/images/5.png)
 
