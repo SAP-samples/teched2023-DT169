@@ -71,11 +71,11 @@ In the same **Display** section, click on Add button and select **Add Calculated
 Provide a Label 'Number of Open PO Items' and click on OK.
 ![image](https://github.com/SAP-samples/teched2023-DT169/blob/main/exercises/ex1/images/7.png)
 
-It is possible to configure a dynamic label for the calculated measure which would display the text according to a specified template. For this exercise, we will configure the Dynamic Label to show 'Number of Open PO Items from 01/01/2023 to 03/11/2023' for this new field.
+In the search field, search for this newly created measure 'Number of Open PO Items'. Click on the result to select this.
 
-To implement this- 
+It is possible to configure a dynamic label for the calculated measure which would display the text according to a specified template. For this exercise, we will configure the Dynamic Label to show 'Number of Open PO Items from 01/01/2023 to 03/11/2023' for this new field.  To implement this- 
 
-Go to the details section on the right where the properties of the newly added field are displayed.
+After selecting the measure, go to the details section on the right where the properties of the newly added field are displayed.
 
 Under Properties section, select **Dynamic Label** and click on **Create Dynamic Label**.
 
