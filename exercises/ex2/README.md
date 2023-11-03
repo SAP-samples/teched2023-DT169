@@ -44,7 +44,7 @@ Rename the page by clicking on the down arrow beside ‘**Page 1**’.
 
 ![image](https://github.com/SAP-samples/teched2023-DT169/blob/main/exercises/ex2/images/6.png)
 
-Enter ‘Open Purchase Orders’ as the new name for the page. 
+Enter **‘Open Purchase Orders’** as the new name for the page. 
 
 Under Data section, add New Data source.
 
@@ -78,9 +78,9 @@ Under Dimensions sections, click on **Add Dimensions** and select ‘**Supplier*
 
 The chart will get updated with the appropriate title on the widget. 
 
-Similarly, add another chart widget that will display the Number of open PO Items per Purchasing Organization Name. 
+Similarly, add another chart widget that will display the **Number of open PO Items** per **Purchasing Organization Name**. 
 
-Along with selecting the required measures and dimensions, you can also change the Chart orientation from ‘Horizontal’ to ‘Vertical’.
+Along with selecting the required measures and dimensions, you can also change the **Chart orientation** from ‘Horizontal’ to ‘Vertical’.
 
 ![image](https://github.com/SAP-samples/teched2023-DT169/blob/main/exercises/ex2/images/12.png)
 
@@ -112,7 +112,7 @@ Scroll up to the **Chart structure** section in the Builder, click on the dropdo
 
 ![image](https://github.com/SAP-samples/teched2023-DT169/blob/main/exercises/ex2/images/16.png)
 
-Change the titles of the page sections.
+Change the titles of the page sections in the sections marked with _'Click to enter title'_. 
 
 ![image](https://github.com/SAP-samples/teched2023-DT169/blob/main/exercises/ex2/images/17.png)
 
