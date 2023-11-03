@@ -21,7 +21,7 @@ Notice that the story page layout displayed during the runtime is the same as th
 In this exercise we will see how you can seamlessly navigate from the SAC story to another S/4HANA application with the required context passed between the two. 
 Scenario for analysis - We want to find the details of the Supplier with the highest number of open purchase order items.
 
-In the ‘Open Purchase Orders’ page, scroll to the chart which displays the Number of Open PO items per Supplier.
+In the **‘Open Purchase Orders’** page, scroll to the chart which displays the Number of Open PO items per Supplier and click on it.
 
 Click on the **Ellipsis** button. 
 
