@@ -90,7 +90,7 @@ Now we will add another calculated measure and add a chart for it.
 
 Click on the empty space in the page section on the right and add another chart widget.
 
-In the **Builder** section, go to **Measures** section and click on **Calculated measure**. 
+In the **Builder** section, go to **Measures** section and click on **Add Measure** -> **Create Calculation**. 
 
 ![image](https://github.com/SAP-samples/teched2023-DT169/blob/main/exercises/ex2/images/13.png)
 
