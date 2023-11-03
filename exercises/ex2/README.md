@@ -108,7 +108,7 @@ Click on **OK**.
 
 In the Dimensions, add ‘**Calendar Month**’ and ‘**Supplier**’ to the same chart widget.
 
-Change the **Chart** structure to **Trend -> Line**.
+Scroll up to the **Chart structure** section in the Builder, click on the dropdown under **Trend** chart and select **Line**.
 
 ![image](https://github.com/SAP-samples/teched2023-DT169/blob/main/exercises/ex2/images/16.png)
 
