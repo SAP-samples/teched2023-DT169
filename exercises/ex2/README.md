@@ -112,7 +112,7 @@ Scroll up to the **Chart structure** section in the Builder, click on the dropdo
 
 ![image](https://github.com/SAP-samples/teched2023-DT169/blob/main/exercises/ex2/images/16.png)
 
-Change the titles of the page sections in the sections marked with _'Click to enter title'_. 
+Change the titles of the page sections in the area marked as _'Click to enter title'_. 
 
 ![image](https://github.com/SAP-samples/teched2023-DT169/blob/main/exercises/ex2/images/17.png)
 
