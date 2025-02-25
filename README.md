@@ -1,3 +1,6 @@
+[![REUSE status](https://api.reuse.software/badge/github.com/sap-samples/teched2023-DT169)](https://api.reuse.software/info/github.com/sap-samples/teched2023-DT169)
+
+
 # DT169 - Design and Build Embedded Analytical Content in SAP S/4HANA Cloud
 
 ## Description
